@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    width: 1920px;
+    height: 862px;
+}
 
 img {
     width: 1920px;
