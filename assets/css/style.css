@@ -93,7 +93,7 @@ img {
     word-wrap: break-word;
 }
 
-/* ------------------------------------------------------------ */
+/* -----------------------DIV-2------------------------------------- */
 
 .container2 {
     width: 100%;
@@ -132,8 +132,110 @@ img {
 
 .text2 {
     color: white;
-    font-size: 80px;
+    font-size: 76px;
     font-family: Montserrat;
     font-weight: 700;
     word-wrap: break-word;
+}
+
+/* -----------------------DIV-3------------------------------------- */
+
+.container3 {
+    width: 1920px;
+    height: 862px;
+    position: relative;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container3 img {
+    width: 1920px;
+    height: 862px;
+}
+
+.text-container3 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: calc(100% - 80px);
+    display: flex;
+    justify-content: space-between;
+    left: 30px
+}
+
+.text-right3,
+.text-left3 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: calc(50% - 40px);
+
+}
+
+.text-right3 {
+    text-align: right;
+    order: 2;
+}
+
+.text-left3 {
+    text-align: left;
+    order: 1;
+    padding-right: 20px;
+}
+
+/* -----------------------DIV-4------------------------------------- */
+
+.container4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    width: 1920px;
+    height: 862px;
+    background: linear-gradient(180deg, #FFF 16%, #595959 94.5%);
+}
+
+.item4 {
+    text-align: center;
+    width: 30%;
+}
+
+.container4 img {
+    width: 392px;
+    height: 324px;
+    margin-top: 32px;
+}
+
+.title4 {
+    color: black;
+    font-size: 22px;
+    font-family: Montserrat;
+    font-weight: 700;
+    word-wrap: break-word;
+    margin-bottom: 20px;
+}
+
+.description-box4 {
+    background: #DFDFDF;
+    border-radius: 16px;
+    padding: 20px;
+    margin-top: 170px;
+    max-width: 350px;
+    margin-left: 94px;
+    margin-right: 10px;
+
+}
+
+.description4 {
+    color: black;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: Montserrat;
+    word-wrap: break-word;
+    margin-top: 10px;
 }
