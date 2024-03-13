@@ -191,24 +191,29 @@ img {
 /* -----------------------DIV-4------------------------------------- */
 
 .container4 {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
     width: 1920px;
     height: 862px;
     background: linear-gradient(180deg, #FFF 16%, #595959 94.5%);
+    padding: 20px;
 }
 
 .item4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    width: 30%;
 }
 
 .container4 img {
-    width: 392px;
-    height: 324px;
+    width: 100%;
+    max-width: 392px;
+    height: auto;
     margin-top: 32px;
+    cursor: pointer;
 }
 
 .title4 {
@@ -218,25 +223,48 @@ img {
     font-weight: 700;
     word-wrap: break-word;
     margin-bottom: 20px;
+    margin-top: 10px;
 }
+
 
 .description-box4 {
     background: #DFDFDF;
     box-shadow: 20px 20px 4px 0px rgba(255, 255, 255, 0.20);
     border-radius: 16px;
     padding: 20px;
-    margin-top: 170px;
-    max-width: 350px;
-    margin-left: 94px;
-    margin-right: 10px;
-
+    cursor: pointer;
+    margin-top: 80px;
+    height: 150px;
+    width: 330px;
 }
 
 .description4 {
     color: black;
-    font-size: 22px;
-    font-weight: 700;
+    font-size: 19px;
+    font-weight: 600;
     font-family: Montserrat;
     word-wrap: break-word;
-    margin-top: 10px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.container4 img:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s;
+}
+
+.item4 .description-box4:hover {
+    box-shadow: 20px 20px 4px 0px rgba(0, 0, 0, 0.2);
+    transform: scale(1.2);
+    transition: box-shadow 0.5s, transform 0.5s;
+}
+
+.title4-special {
+    color: black;
+    font-size: 22px;
+    font-family: Montserrat;
+    font-weight: 700;
+    word-wrap: break-word;
+    margin-bottom: 20px;
+    margin-top: 60px;
 }
