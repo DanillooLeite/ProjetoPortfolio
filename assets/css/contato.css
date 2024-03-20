@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box; 
+}
+
+body{
+    background: linear-gradient(180deg, #FFF 16%, #595959 94.5%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Montserrat;
+    font-weight: 700;
+    padding-right: 1rem;
+    padding-left: 1rem; 
+}
+h1, h2{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    line-height: 1.2;
+}
+h1::before{
+    content:"📧";
+    display: block;    
+}
+
+.form{
+    width: 100%;
+    max-width: 32rem;
+    font-size: 1.125rem;
+
+}
+    
+
+
+.form label,
+.form input,
+.form textarea,
+.form button{
+    display: block;
+    width: 100%;
+
+}
+.form label{
+    line-height: 1rem;
+    margin-bottom: 0.5rem;
+}
+.form input, .form textarea {
+    font: inherit;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition:border-color, box-shadow 0.2s;   
+}
+
+.form textarea {
+    min-height: 13rem ;
+    resize: vertical;
+
+}
+
+.form input:hover,.form input:focus, .formtextarea:hover,.form textarea:focus{
+    outline: none;
+    border-color: black;
+    box-shadow: 0 0 0 2px black;
+}
+
+.form button{
+    display: block;
+    padding: 1rem;
+    background: rgb(153, 153, 153);
+    color: #242424;
+    font: inherit;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.form button:hover,.form button:focus{
+    outline:none;
+    background: rgb(214, 214, 214); ;
+}
+
