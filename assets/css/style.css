@@ -1,3 +1,47 @@
+/* -----------------------CABEÇALHO------------------------------------- */
+.link-contato {
+    text-decoration: none;
+    color: #000;
+    font-family: Montserrat;
+}
+
+.link-contato:hover {
+    color: #FFF;
+}
+
+.link-home {
+    text-decoration: none;
+    color: #000;
+    font-family: Montserrat;
+}
+
+.link-home:hover {
+    color: #FFF;
+}
+
+.link-sobre {
+    text-decoration: none;
+    color: #000;
+    font-family: Montserrat;
+}
+
+.link-sobre:hover {
+    color: #FFF;
+}
+
+.link-entrar {
+    text-decoration: none;
+    color: #000;
+    font-family: Montserrat;
+}
+
+.link-entrar:hover {
+    color: #FFF;
+}
+
+
+/* -----------------------DIV-1------------------------------------- */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +50,8 @@
 body {
     overflow-x: hidden;
 }
+
+
 
 .container {
     width: 1920px;
@@ -58,7 +104,7 @@ img {
     font-family: Montserrat;
     font-weight: 600;
     word-wrap: break-word;
-    right: 118px;
+    right: 132px;
 }
 
 
