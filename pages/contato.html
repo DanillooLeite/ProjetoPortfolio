@@ -6,27 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
     <link rel="stylesheet" href="../assets/css/contato.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-           
-            <h1>Formulário de Contato</h1>
-            <form action="agradecimento.html" method="post" class="form"> 
-                <label for="name">Nome</label>
-                <input type="text" name="name" id="name"   placeholder="Digite seu nome" required>
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" placeholder="Digite seu email" required>
-                <label for="message">Mensagem</label>
-                <textarea name="message" id="message" ></textarea>
+    <div class="container">
+        <h1>Formulário de Contato</h1>
+        <form id="contactForm" class="form">
+            <label for="name">Nome</label>
+            <input type="text" name="name" id="name" placeholder="Digite seu nome" required>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+            <label for="message">Mensagem</label>
+            <textarea name="message" id="message" placeholder="Digite sua mensagem" required></textarea>
+            <div class="button-container">
+                <button type="button" onclick="goBack()">Voltar</button>
                 <button type="submit">Enviar</button>
-            </form>
-            
-           
-            
-            
-                                  
+            </div>
+        </form>
+    </div>
+
+    <script src="../js/script.js"></script>
 </body>
 
 </html>
